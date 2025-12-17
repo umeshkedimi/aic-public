@@ -61,3 +61,4 @@ AIC is under active MVP development.
 Start here:
 - ARCHITECTURE.md
 - MVP_SCOPE.md
+- SYSTEM_DESIGN.md
