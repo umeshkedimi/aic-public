@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.Python
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment — never commit real secrets. .env.example is the tracked template.
+.env
+.env.*
+!.env.example
+
+# Local artifacts
+storage/
+*.log
+
+# Load-test and chaos output. Committed results live in docs/results/ and are
+# added deliberately, not swept in by a wildcard.
+load-tests/output/
+chaos/output/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
